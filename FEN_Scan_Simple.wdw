@@ -232,7 +232,13 @@ window :
      type : 12
    -
      code : |1-
+      // Lorsque la fenêtre reprend le focus, il faut réactiver DWFacile, on passe le callback de Traitement de Scan
+      // La méthode prend en paramètre le nom de la procédure de traitement des scan
+      //	Son prototype est le suivant: PROCÉDURE CB_TraiteScan(sData est une chaine, sSymbology est une chaine)
+      ZebraDWFacileDemarrer("FEN_Scan_Simple.CB_TraiteScan")
       
+      // On réactive DW au cas où on revient d'une fenêtre fille sans scan
+      ZebraDWFacileActiverDataWedge()
      type : 220
    -
      code : |1-
