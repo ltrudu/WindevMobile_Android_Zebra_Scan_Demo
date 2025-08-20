@@ -1,16 +1,16 @@
 #To edit and compare internal_properties, use WINDEV integrated tools.
 #Internal properties refer to the properties of controls in windows, reports, etc.
 info :
- name : FEN_Scan_Simple
+ name : FEN_Fenêtre_fille_avec_SCAN
  major_version : 30
  minor_version : 0
  type : 2
  description : ""
  subtype : 0
 window :
- name : FEN_Scan_Simple
- identifier : 0x2bb5db2f01c77dd9
- internal_properties : HgAAAB4AAADY/1gXIOsPFmINXRfWna/dVK9wVr+tnsOpoavPfYNYdCRtqQenEFtLmoq/jPU4NMWI2IgfWLOqZSettumkJxHxY+dQu/UvFRMFVdWSpaJvv+UF5AMk/fyNHFgDeC84qy9X8asku34NAB2EVRZ30LskILV9Z6wkwISkrJcG5Z9ObE7nM6uxsNp1i44NJevKf58pmqFwX60g6TU3ZNCN4LuQaEjYohe2RO3KB8MF1rWmE16C5Xei4iTzfA4PWyK4NEBYtJO1Y4HKwESnRfzX5bX98ay4V1T2tvxxPGA5jhRW5KKYBA1DGVO3q/i5Lkk6z1JIRXI+ZLe4PSysj33CjcJ5tBbOXOcEQDnnmxCKM0BQ/r0yC+ApiZLrK97BQtnYlmN8LC/zRNdAQjNmbDNtMfqYo0xPAV/GqdgNrw7QDfGFwrr/t8sJIgLpKw7Ud1z3R8R0DXBQFS4tzcyml6QCEre1JkjfDNcHRjQI+/E8lc9CKva2a5oF/MzQfyuIm2q5VohZ2UU26xBca+ErwN3bc+izWE9mYCsEmXW87oX+RQSVePong1SnxbtrtWMQo6hcD2O0KlcSWgysAm42KbeYsJ4rM0mQMig7yFaxLSwBwAjjFA9Ly9Y3ZAJrGfAkbQqGtpFOFVwJ3HCp++6M8J90DhFmS20QrzoKz23nZVFlgR2UYQ5cdlZxuHByb1WW4d6DfTCUdno7COCvIKKD5QZ4fcbecX5V7heaL24JzW8Mf+FXgxby8XQNdwe07rRuXZjuOurb9CdfJUPi9K6xj2TnHymIwdtiUv1EsH13SIkSam7mLW0u0uKaJXY/4p2d2/jg/HxIC6Pq807DYEPq2z7kx2fEiVXgyKBth0w5xI+ppLi5JdKGxgSCsOepvE4kYc7U8rU7o3HR7anrWzodgIKvF/4xbLeq513q7XJo
+ name : FEN_Fenêtre_fille_avec_SCAN
+ identifier : 0x28a59f7302902c0d
+ internal_properties : HgAAAB4AAAAUb0sItiYXI3+M4b4Z9KcSORvzREj3w/dIt/PAt9iIk3HI46L3Miq/+MqqF18TI/2lTKfiY/3FcqkI/JsZU/jW0wk8cT3NKLW/IfRCiykNUkrRHTucenhYaHrQz1XTApZv6wzzrfBq0RokyqePWaTfcez8zasHGPVYH+ELujpSJ8YzY1iAF7aBoKUk71BR97/o5hBrHDNQ+C5EqtAH9l5XnSEhgehYYdPo385xRGvL+Ho2E4wbi6RUSjpj4VatcHwTfp1aBRomqR0tSv0/htiW6wXUnJ2Hl/dXD3MqBTEEn6flZKf4eqOPRKzbuR/fKnTSZyX5mPOm/aJaoEkvTEYmK1ILYS+zn0/i3KH7428F+58VS80Z6GsOm9ukAvBbYq294LpduRp/914uFV77uDhU+HPi+v3BMYvY3Ic0hYYOH3Lef25sq1GL7KsNYgG1/sQ1I/T/FKDKWOPZFG1LjMpVNrtayo7IMY4Az6I3RS5bMQRcKQf7sByrQdI9QqLuIeeXay/n66A4sGmoCybzsKPGzOG4nW3MZZ6mHd5F3dV0U6idgdPb342eozo5Il7Ztm44uA0zlliEr4K/BCSSP+Pe4YU03c6BPvHDmEX8tgUWM6kX3+fDJDbSIXEnUqa5ayoIc/IsKh7fmC6Bw64270wRZ5GEptJEaZKBiKI6C8ChFtoc3o/VtADZEQ55FrhUmCtopuoA+oxnC9wkpBf+VCstS0Q7QVeInevnFg6LQ/IyVODiqcuLr1t5GvvfRtD/YZ33nDfeO5t+JRo0aIW5QKD/xxOyX0bN5pfkPZrDMKu51eahYHmBGx2ulEvTRHpoVXLLlnQDPk5HGFcSHOPPeCOnMCeRgX99JzC9XC3UnyBPCk5DImK1VMRdOEqG9x1QBPagfpV3j+d1YCm1y6yS9BXnLrN8cDaFrhcrFke6/QKeRyxZ+VU2Gnx4m6BATMABy4pFDUOHsw==
  properties :
   width : 320
   height : 407
@@ -19,7 +19,7 @@ window :
  controls :
   -
     name : SAI_Status
-    identifier : 0x289ddfc327428232
+    identifier : 0x28a59f7302912c0d
     internal_properties : HgAAAB4AAAB/WiifiAKlYOUQEY4QOXtEfVt7d8uiu2691qIsbTvuWU7MCvQAzh6Juxqt5RoavP/bUS+keiFc20xAOzNSkK38FpRv3nvcUV2y3FlBCnuWlTkTnsReYKB3V9c6/gxtrshvmtjqSZQregY+nXx6y6+YV4urHAgLck3BOhlbzr9IMzfWHlQ0k7r+jpxdKcEVF/BlU5YG+jTzl3q5nnnalo90yshguzbi/mfCqGkhmVBVG/MzCPC1Z4kMJZA2vxPFZwHR3Zh7akEDOKY2QrA4o9BpTP/uHq8L6/ZOYMF5Wj6vaP77iGh0L6q2HK/seu+peI0K6dKKU7hI72hUieBP2Lw309bc53X3cueVg6nfc5f+EcLOOtwp3ftbr33EWK5vJdTA0GhpHgFA/nYl0ywZRA+4uY4C6h8T2MP++JmAq3+6AeTAnAbjqKsEZPK91lZCUnH654OhJgsaauods/qSMAM/iv0V8VptX5F9mY+Ih8YS9AxMAPPrEDzf5Dm29Rvr3qm34gtquwF7vp1C2hs5gQb5vIq0oSuiziopR3vGkRJ8KWp9bc7uVHtuauqMC+TtJSmjMitNmBJWVnrudi7dHAWLAq2xub0QVyATJ84jvJ9q+v9biiGC+Ll1cv/qlJAcG4eYrNYmPrtMVAGkgrjeU9IcJpKrHM0mcSghDUtTwVWOI0ouCq0S+hmSVqpPuOrnxb9jl7tNc5NeQOP/YGOSnzypDaAM7UfC6NcyVn78vaPCM6k79GsY2Su1ARiN3Z7rpuPC6Ct+DyBtWej30FTs4P0ez92GnhTdUyqDbhVUIE/aRsRDzEDEmRPNi7JWf7aq/PvjMezeED22iFQH5eDMx5upmewU/6TL3vGT7s2FP0+d/9IOEypoF2S2RCRU6O1sI2GOh3tsMZPhsv/ljPW1i2hBMubLk9bYJKR5t1H7vCsp8TDpEQlvEVPHc+HMUdsgJtIaYVyXKIq7wnlARpP/oB2/4CbWF4AuVkOHJP+2DxgRWnw/1SUIQhmy19OET3hQJAMFcAqD21HtO3Fq2AqG6NRIdPhqxu77hL7bjE9MIZh59DtOtpLjRRl9cav7rWVqqSgZcBycg2QE1oxOEstvm3S4ktNrPoHL0I09sTXGDKWoaLxEazONo8GDFMIOAhwFhEeBUkjr7b5qZN3evzTuS/MWApS92/YJDsAdzmLgdasnRP79Rf0YZXmCysgj+ej3Byjj23KNau58BOACIOmy4AsnJemP0brsA5ITNobbIjqZnVqZcAM=
     properties :
      x : 8
@@ -52,7 +52,7 @@ window :
         enabled : false
   -
     name : LIB_Cet_exemple_vous_montre
-    identifier : 0x289ddfd62744cf49
+    identifier : 0x28a59f7302922c0d
     internal_properties : HgAAAB4AAACeD7mpofSnCIqxM5omp2jPxr2L53oDSrlzDcsK5LZK6Jr4PeIDSOMkBuS19COs5sDtdGzbjnmlO5d9YNx+P1WsZpMj+AeYujrUDlm2VI69MgbdVA8IjbVkARXK7pmIf2CP4dRL8VuZyU4I1liTVgH8IT16mncmqiMlbeTMOkzdZeGkfq5uDF1D8uPGNwDIU6WnswBEW0u8CxRwd0a+suLxRoCKdMI5TL7PySpu4raO8i05Z7KLP03Mw3FC6rErSLBmRXo52c5YbZStDXYaSSRpvHtcOA3nqDw86LVjg4rTTr/xHHi21hgH0IZcGXr/kXnE9OA5HZjVCU0S6H6uXFcyb9yQnJLJjGh+DvCDWqpMK8xS9Lj4P9z4oHGlC5fDUFAPrBa/sUpTRm3jRMY58zTIN8kcCa3/8YZAymCwsnRFpX/7WuScy/1L1HL6RGSg0Rl5EWyyqCdazYpC7MRM3JGT33sRU3hY7MIK5Ss7cFiUh8tddfobC/SXNy7hFzOU1xDxDGEzup53RDCmWPTLjYz2jEUwfHB4rRFc9A==
     properties :
      x : 8
@@ -70,8 +70,8 @@ window :
      p_codes : []
   -
     name : BTN_FEN2SCAN
-    identifier : 0x28a59f020240712e
-    internal_properties : HgAAAB4AAADS3+tAHN2hem1N6C5lBJZBofZOOE49qW5yqWfeZCrTwDj8Uwfy6CupX5o2s6YeDarYAHR3pp2tjfzrs7SLjUQ4KiZwjzg6lJAb+6FNAoGko6AcsRWZD2oJaQlpvPVO+OOf3Fxj7b5hquTqtEAholF8bioKKp4KjHpxFKjL1+YLFHNngKg+JtvIFo8/Ngr0E/riqcXj7tqL+z69jK8NIfcerMGFA8oTDG3kekjM7BxK7FFh+Tw4I//R5ZE269BuJz1BL/1t571hx6VMbBmgqfVItR/jVAPwv3VPdC/SylhuD3cvguNdkaPdSbqTwEU7ecTfr3h9QpZ8xnXuwQokdk5MP5tKRNXKTzhzA3CE9e33c+14BU0lCO78nwNbDuq4qKC1D0/eXk+DK7KvEcWzhdLlIfWv5UsltXtXj+k5jFQqsyDHk0Jp/jI/54DWAdU1O1RQ91q5cW4QA0bgY42tdDH1/WwncqOTuFeEF/KA5gdc8wKnTfIfAXG+DssR5eWoihvYQ8Q2qodyhCw/uPsS6alXiDx19BmzD1YLKEUix06AO8FS2oLYM8VtXbxJe5jsrBcoVQt1IN1t0LJOjq3ywGoXDWzuFDWSAhN2yXdPMaiFyUBvs5Tu3DF2f5ipyxJw2QLGUQ29c4VBhahzp3lcDv+2zsdXTS3j5aNxLZK5epiN2PKAw2IZwkOafg2bU5wSTb07RjICiR8O26rHBmd2AzZ4+wbHszmYytEbksIyPsmGrz1K9EJLPdvLnwNuDrs9EJ7tTyXo6b15SECd90GxvWRMz3Qs4NN/+/Gs+qx3FqBTapaLh2zo+NB74GLRDD+3z2eyMXrKrgpQ9xDvOOXxsO+L7FtGo69J4xM0DTsvGK8L3rrOhHi+hNEYdWBNB75pY7uROGsZXiXo8sw4vXBoQnkCBBYcd1+rYQR32GQeeQzyaANqvYnAWnREw5xRXLyIaCder7UYKnv7Og==
+    identifier : 0x28a59f7302942c0d
+    internal_properties : HgAAAB4AAAChSK2c6LTAtjleEV88o03HsM5Ft5woHkKNevvIDE3E9z+eS/RFHFaJ8OvyqzJl9OLL0YhOHlZ4so1umBWnK4v+nbqVssMWX5/VKrU/2rC3Z0EXyPQiclBUcmVr90E5pV8bq1zgl7N71E3V18vaTa+77fbsfatUXISWLFYdk+bT10JzOHk+TP64eu/sGv9omW1eRC7fozwzJERIG8xoZNs31veAgvq5l4ihzKspHeseXRU4c73giw8L4O30eLzY+ESor1EvvokYLDtSBJYPByj5D1UJ0jEAIzenZ41czDMod6XjYwcbRfc6ruZlijbxdLo2GEID+CwO8UC+97hvB3tqALf4f/UAVa/jIQJomsrtARPL9o2Txw8tgrKLplFSjvQfz/0O9i4uKX1e7jnLhpkCdRgTy98eiYIivk734SyrgH/OQ+gyG+acMOaGOKZxdLL67axXgEB4WboX7c6Nr0EIqedqoAL9J56NPZiywlU5vUm/9c1R9NT9fiH1osoQXc9JdR6PLK79E2LH0hCPJ+A/rUjBtzOujvOdQBt5HvaRS9pkjosqipRiTT53poNea3NBfXPKfuDgXwjaOGr3gPsLwIgSk9UTT+LYhbfybCwOV8kBj9GKRUaJcbilTANaZrghu0u80SJ62FA1O3aBPFC025vBlg0gcuon8dgsRWgEGBXUUQEHQ2xjZo99wMHIDhfOQhZHH4o1zDZJuMyz7z16gNJh7p391+gD6IYHu5/BH7784j0vgnAydwFaz8Qz1RzeEcMtt95CtfwrZaoqM0EyBhoCQx3AnDiYDGoOXY7cyHGVIXG0pbnkfv4LgVR78H8hibSVOrG/XuJPd2AXpiLa3vqRARZjvzgRthaZ/LIVr5cTJqt6qQDP9DUUw2zEofZPD+R5PXgyegePIYdPisjhprHNB6JDo/Qu3rHNyPpv98NZxDt3sjYOicsrhIdaRXOJl2rZm9FukqeSng==
     properties :
      x : 8
      y : 351
@@ -88,14 +88,14 @@ window :
      p_codes :
       -
         code : |1+
-         OuvreFille(FEN_Fenêtre_fille_avec_SCAN)
+         OuvreFille(FEN_Fenêtre_fille_avec_SCAN2)
         type : 18
       -
         type : 161
         enabled : false
   -
     name : BTN_FEN2SCAN1
-    identifier : 0x28a59f2b024c13a7
+    identifier : 0x28a59f7302952c0d
     internal_properties : HgAAAB4AAAD3dBiie6xuSYrSgWuiaVGOoof9l9lMVHEzAj3IzgRZXgKWpXei9yyE7uggpG6lul5axQLGjkESKs2egebfNmh3UqpGyluREx3OckeVSF/TnH3z6F3jmd/SiMCwyqFTWyFNQ430ExIZoKL8hoYeGDF7PTXdvz/CfEDpVAp0uoOmK+VtBavPOa34A71u7tJhEY0BrRt3dv7/YlCW/D0YNJKBWvYZzx8jBoa8D//Mw9F/iwwKT336A70npNtrzTimK8ytTsU6Ok+tuQgUWgLLtMSPx60ovNIkhkGZ3l8Vy1fXgRjUiHSbqU+IQJq2OV1sWt61TuVTD8zn2Qp4c//E5pWcYOh2m6qMRzSfY/AzEJOEOEkKZf8TSb+DbqRXXsJvOzDkkBV3l+ONSBs3qdzSCg1DedzcOlQqZpzh4zYRwNAzU0Wy61sUqtxUVmz5hSTliX5ZTU6ftsRbTxEqUP5hrcqnFEAhtC2nqurxrGVD/eNc5fDdA9kFgf50dACJsagVwXiAvSbIYUlYG3CwRmWlYqvh/Ey9g93kQn173PQVAmhCId5pH92LYOMpUeiJv7eTNeuDI1fx/07HIrxKDmS5yaJtk54GzXALqQpZGw232Ymn8eRBoZ9sP6SYH4uvjGvZuMD0aM3wmjZxeqA5kdKIbysqri12gOZlTBTX3GjQNqR51WOw9h7lFq5Jo5Q2+ZyuNR/IHdtUBGDS/zHaIRWkWVDj8WUnaP5PFjkvDbirxGH2Xs2MGsVJVxHRiT8wRNtVFddkTt6PcqKoFWUa9FDlM25Y0zj0UJcJeGYVE6F6gZ1+LTEm+JsnEaNI+VvtaDO/QeMAPzyotjKMf6zMB8465tXnZt3QCU3TfU9qw3Ex+s3XKKYydnYm7MEKd0oFxxh57a97bH1PoiHonK7KvnZ8YuFfKgQEL5d7DZwzhIQ+OZjkVAlwRQFa0LpclS7X9vYCdC1KXWWQxSCeXw==
     properties :
      x : 166
@@ -114,13 +114,14 @@ window :
       -
         code : |1+
          OuvreFille(FEN_Fenêtre_fille_sans_scan)
+         
         type : 18
       -
         type : 161
         enabled : false
  actionbar :
   name : ACTB_ActionBar
-  identifier : 0x2bb5db2f01ca7dd9
+  identifier : 0x28a59f7302932c0d
   internal_properties : HgAAAB4AAAAuB1USZj9LknKctaNPPc07nVCzLbijqS0VKWSunpgUBsaNgpOj8qa2j7+7uUgpwIq/prVyrN38GaoQDnonXdOyjU4a2pbYwuZMX4xsaACcHPTK0Dc78BcC36YgDjarxsOL4KDzyFCuTGyOc13h1oIaoGMmuLxoF8r36jtlj00stLMJdhe7sOcydRz6nZDSo810mWuuMdxukBMIjBeSsZTKSiXrpx9oD6C5lAmp5r7QAbhkdSF5tSnFXecxG5nOeuNpsl8XuyXQWK6YOIX6hVmzwHdFAyUmISfjL+YwMZe/Uyy826njDGg3K7JNHkFQaA3lBh0lIjaivL8L9wWgxiu/7IIqqQUAcmyMsCEiyt9V6W3Ooe7xr8Va3v4eHi4xKsd2ZLfglZO1XSw2VtylEg==
   properties : {}
   style : {}
@@ -156,22 +157,10 @@ window :
    -
      code : |1-
       PROCEDURE MaFenêtre()
-      gsStatusTexte est une chaîne = "Initialisation en cours" + RC
+      gsStatusTexte est une chaîne = ""
       SAI_Status = gsStatusTexte
    -
-     internal_properties : HgAAAB4AAADhem2/yHGX48pDvSNwWhGM4+/stWBVF6KwwnDpgbb4ATI8u56fG1jdD0NHmeq64K95ej779BWwBJh3LWVT6DtIUDTM/8eRkeftuyq84Zaz4tR36sf+aFpXK5f+a13yu7Q0i2+PUsxU0Y+P17PAhOjtThnKu2q1fRVefNvIev4KV8gH2EoPWQee8eG9YDd34rSl
-     code : |1+
-      // A la fin de l'initialisation de la fenêtre, on lance l'initialisation de DataWedgeFacile
-      // Pour cela, nous passons 3 noms de procédures WL en argument sous forme de chaines:
-      //	1- 	Le nom de la procédure qui sera exécutée si la fonction est un succès.
-      //		Son prototype est le suivant: PROCÉDURE CB_Succes(sNomDuProfil est une chaine)
-      //	2- 	Le nom de la procédure qui sera exécutée en cas d'erreur
-      // 		Son prototype est le suivant: PROCÉDURE CB_Erreur(sNomDuProfi est une chaine, sMessage est une chaine, sErreur est une chaîne)
-      //  Les callbacks de succès et d'erreur sont facultatifs, mais fortement conseillés
-      // Cette méthode va initialiser un profil DataWedge associé à cette fenêtre
-      // Afin de recevoir les scans il faut exécuter la procédure ; ZebraDWFacileDemarrer("FEN_Scan_Simple.CB_TraiteScan") en faisant passer
-      // en argument le callback de traitement de scan
-      ZebraDWFacileInitialiser("FEN_Scan_Simple.CB_Succes","FEN_Scan_Simple.CB_Erreur")
+     code : |1-
       
      type : 34
    -
@@ -191,36 +180,21 @@ window :
      type : 230
      enabled : false
    -
-     internal_properties : HgAAAB4AAAAaa4naUF6coKOOPc0DW1dLc3Ts6m2OwreHU2472ye57ykWPWnihMDeIXNPJKdWx8OdZ13PfNKHPGDYg5+K+PQWSQGWztrIeruTSB6ffrG5PowcGnxzZ0SxXImDNkYXNzGBcmrU7dH146K56sbuVM3AT0nahLIS8ZH3kIPgaQ4=
-     code : |1+
-      // A la fermeture de la fenêtre, on peut sortir de 2 façons:
-      // 1- 	Stopper DWFacile et nettoyer seulement la procédure de traitement de scan sans effacer le profil (Recommandé)
-      //			ZebraDWFacileNettoyer("FEN_Scan_Simple.CB_SuccesNettoyer","FEN_Scan_Simple.CB_Erreur")
-      // 2- 	Stopper DWFacile, nettoyer la procédure de traitement de scan, stopper DWFacile et effacer le profil qui avait 
-      // 		été généré par ZebraDWFacileInitialiser.
-      // 		Cette méthode est déconseillée si des fenêtres filles doivent utiliser le scanner.
-      //		Elle est le plus souvent utilisée pour les applications disposant que d'une fenêtre/
-      // 			ZebraDWFacileNettoyerEtStopper("FEN_Scan_Simple.CB_SuccesNettoyer","FEN_Scan_Simple.CB_Erreur")
+     code : |1-
       
-      // Dans le cas de la démonstration, nous n'effaçons pas le profil
-      ZebraDWFacileNettoyer("FEN_Scan_Simple.CB_SuccesNettoyer","FEN_Scan_Simple.CB_Erreur")
      type : 2
    -
-     internal_properties : HgAAAB4AAACUFkPb1sRXSI1MZmFgujSfltJV85N+clJKeBRvSBYEyYWfQA9cWTzEXkI5zzum2W9IYVKJs+zSNaiUaM/TbHC1QU0kHUnhduw9hUxbBSx5OTyABGdMBohUkJqzOGukWZLfHE7dqAS11pbKlNo3BYk/ac/SRSXnHdWPrRN7/w==
-     code : |1+
+     internal_properties : HgAAAB4AAAApCz2GLZff64CK6UxmaR6vRYfeBoLPCa2N49C+f/T/18HkVuDrCNl9+EMDBJCe9e5/CjpwEHRekBIZnHEsBPJQOS3QJ0GgNBQ4etbAMlYNFpfy5Meqs8LjFGwlSK9Z6xhZ3X/0cL44sFt0lc4=
+     code : |1-
+      ZebraDWFacileActiverDataWedge()
       // Lorsque la fenêtre reprend le focus, il faut réactiver DWFacile, on passe le callback de Traitement de Scan
       // La méthode prend en paramètre le nom de la procédure de traitement des scan
       //	Son prototype est le suivant: PROCÉDURE CB_TraiteScan(sData est une chaine, sSymbology est une chaine)
-      ZebraDWFacileActiverDataWedge()
-      ZebraDWFacileDemarrer("FEN_Scan_Simple.CB_TraiteScan")
+      ZebraDWFacileDemarrer("FEN_Fenêtre_fille_avec_SCAN.CB_TraiteScan")
+      SAI_Status = gsStatusTexte
      type : 11
    -
-     code : |1+
-      // Lors de la mise en arrière plan de la fenêtre, il est nécessaire d'indiquer à DWFacile que nous
-      // ne souhaitons pas recevoir les scans sur cette fenêtre.
-      // Pour cela, on exécute la procédure ZebraDWFacileStopper()
-      
-      
+     code : |1-
       
      type : 12
    -
@@ -238,7 +212,7 @@ window :
    -
      name : CB_TraiteScan
      internal_properties : HgAAAB4AAACTb4A+EmHO2WwBq6JDL1x0RokFW2KpwZDTFAILRv9jqPpvN4vf5iHK5JXb3ynTKn337tp2FaLRV3oKudkDAEVsWBi+te9gQZzntJx0nARrLNmq9+qb05KN+AdlnNlriTDS9ZMqKv6oP2DBlPj/oDuqL8ngQpFbNrlTxlLxbER6l8qygzy+CkQF12qfZ8Hu54bXgZ1o
-     procedure_id : 1996743004791930329
+     procedure_id : 1776000944343559181
      type_code : 14
      code : |1+
       // Résumé : Procédure exécutée lorsque la fenêtre reçoit un résultat de scan
@@ -261,7 +235,7 @@ window :
      type : 458752
    -
      name : CB_Erreur
-     procedure_id : 1996743004791995865
+     procedure_id : 1776000944343624717
      type_code : 14
      code : |1+
       // Résumé : Procédure exécutée lorsque qu'une méthode a rencontré une erreur 
@@ -287,7 +261,7 @@ window :
      type : 458752
    -
      name : CB_Succes
-     procedure_id : 1996743004792061401
+     procedure_id : 1776000944343690253
      type_code : 14
      code : |1+
       // Résumé : Procédure exécutée lorsque la méthode ZebraDWFacileInitialiser à été exécutée avec succès 
@@ -307,7 +281,7 @@ window :
      type : 458752
    -
      name : AjouteLigneDansStatus
-     procedure_id : 1996743004792126937
+     procedure_id : 1776000944343755789
      type_code : 14
      code : |1+
       // Résumé : Ajoute une ligne de texte dans l'élément SAI_STATUS
@@ -330,7 +304,7 @@ window :
      type : 458752
    -
      name : CB_SuccesNettoyer
-     procedure_id : 2036157567535537074
+     procedure_id : 1776000944343821325
      type_code : 14
      code : |1+
       // Résumé : Procédure exécutée lorsque la méthode ZebraDWFacileNettoyer ou ZebraDWFacileNettoyerEtStopper à été exécutée avec succès 
@@ -356,7 +330,7 @@ window :
   original_name : _11
 resources :
  string_res :
-  identifier : 0x1fc7bfb504eaccba
+  identifier : 0x18a59f7300602c2c
   internal_properties : HgAAAB4AAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
 custom_note :
  internal_properties : HgAAAB4AAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=

@@ -343,9 +343,9 @@ procedure_set :
      procedure_id : 1952703118738280106
      type_code : 15
      code : |1+
-      private static void _DWEffacerCallbackDeScan(boolean effacerLeReceiver, final String sCallbackSucces, final String sCallbackError)
+      private static void _DWEffacerCallbackDeScan(boolean bRemoveBroadcastReceiver)
       {
-      	mDataWedgeWindevMobileFacade.DWEffacerCallbackDeScan(effacerLeReceiver, sCallbackSucces, sCallbackError);
+      	mDataWedgeWindevMobileFacade.DWEffacerCallbackDeScan(bRemoveBroadcastReceiver);
       }
      language : Java
      type : 458752
@@ -839,18 +839,17 @@ procedure_set :
      type : 458752
    -
      name : ZebraDWEffacerCallbackDeScan
-     internal_properties : HgAAAB4AAAD0J6jltJRFhzq+KuP+OQ4yEyKme7+OozCcwFYagJS1dzsn+dY19S7kXNGB1t4hsr++eppqankXpEOkmWezZAhsKbo5FPEng8KzJO9rhChrX4vA0nR2yr8t54wYTHGbzgYeNQ4eqc1TNa3Ar24HMLpIO9mV1LTqb9uoHbPbaNjj9hPnV5lE8kj2seYPctyTfUF8cjCF1tV5GZH+vucPRONw
      procedure_id : 2001298599235454053
      type_code : 15
      code : |1+
       // Résumé : Supprime l'enregistrement de la callback de scan définie au moyen de la procédure  ZebraDWEnregistrerCallbackDeScan
       // Le scanner fonctionnera toujours, mais l'application ne traitera plus les données scannées car elle ne recevra plus les résultats de scans.
       // Syntaxe :
-      //ZebraDWEffacerCallbackDeScan (sCallbackSucces> est une chaîne, sCallbackError est chaîne)
+      //ZebraDWEffacerCallbackDeScan (<sCallbackSucces> est chaîne, <sCallbackError> est chaîne)
       //
       // Paramètres :
-      //	sCallbackSucces (chaîne UNICODE) : Indique le nom d'une procédure WL à exécuter en cas de succès. Prototype de la procédure : CB_Succes(sNomDuProfil est une chaine)
-      //	sCallbackError (chaîne UNICODE) : Indique le nom d'une procédure WL à exécuter en cas d'erreur. Prototype de la procédure : CB_Erreur(sNomDuProfil est une chaine, sMessage est une chaine
+      //	sCallbackSucces (chaîne Unicode) : Indique le nom d'une procédure WL à exécuter en cas de succès. Prototype de la procédure : CB_Succes(sNomDuProfil est une chaine)
+      //	sCallbackError (chaîne Unicode) : Indique le nom d'une procédure WL à exécuter en cas d'erreur. Prototype de la procédure : CB_Erreur(sNomDuProfil est une chaine, sMessage est une chaine
       // Valeur de retour :
       // 	Aucune
       //
@@ -858,7 +857,7 @@ procedure_set :
       // ZebraDWEffacerCallbackDeScan("FEN_Scan.CB_EnregistrerCallbackSuccess", "FEN_SCan.CB_EnregistrerCallbackErreur")
       //
       PROCEDURE ZebraDWEffacerCallbackDeScan(sCallbackSucces est une chaine, sCallbackError est une chaine)
-      _DWEffacerCallbackDeScan(faux, sCallbackSucces,sCallbackError)
+      _DWEffacerCallbackDeScan(Faux, sCallbackSucces,sCallbackError)
      type : 458752
    -
      name : ZebraDWVerifierSiLeProfilExiste
@@ -936,7 +935,7 @@ procedure_set :
       //	bFermeture (booléen) : mettre à vrai si la méthode est exécutée à la fermeture d'une fenêtre
       PROCEDURE ZebraDWFacileStopper()
       // On n'a pas besoin de supprimer le Broadcast receiver
-      ZebraDWEffacerCallbackDeScan("","")
+      _DWEffacerCallbackDeScan(Faux)
      type : 458752
    -
      name : AndroidObtenirLeNomDuPackageDeLApplication
@@ -993,7 +992,7 @@ procedure_set :
       // ZebraDWNettoyerBroadcastReceiver("FEN_Scan.CB_EnregistrerCallbackSuccess", "FEN_SCan.CB_EnregistrerCallbackErreur").
       //
       PROCEDURE ZebraDWNettoyerBroadcastReceiver(sCallbackSucces est une chaine, sCallbackError est une chaine)
-      _DWEffacerCallbackDeScan(Vrai, sCallbackSucces, sCallbackError)
+      _DWEffacerCallbackDeScan(Vrai)
      type : 458752
    -
      name : _DWFacileNettoyerBroadcastReceiverSuccess
@@ -1054,6 +1053,31 @@ procedure_set :
       	return sPackageName;
       }
      language : Java
+     type : 458752
+   -
+     name : ZebraDWFacileDesactiverDataWedge
+     procedure_id : 1776031133697993973
+     type_code : 15
+     code : |1+
+      //!
+      //! @brief <indiquez ici ce que fait la procédure>
+      //!
+      //!
+      procédure ZebraDWFacileDesactiverDataWedge()
+      ZebraDWDesactiverDataWedge(AndroidObtenirLeNomDuPackageDeLApplication(), gnDWFacileTimeOut, "", "")
+     type : 458752
+   -
+     name : ZebraDWFacileActiverDataWedge
+     procedure_id : 1776031683460161500
+     type_code : 15
+     code : |1+
+      //!
+      //! @brief <indiquez ici ce que fait la procédure>
+      //!
+      //!
+      
+      procédure ZebraDWFacileActiverDataWedge()
+      ZebraDWActiverDataWedge(AndroidObtenirLeNomDuPackageDeLApplication(), gnDWFacileTimeOut, "", "")
      type : 458752
   procedure_templates : []
   property_templates : []
