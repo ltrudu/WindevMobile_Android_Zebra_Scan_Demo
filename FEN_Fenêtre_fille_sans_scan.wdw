@@ -91,6 +91,7 @@ window :
       PROCEDURE MaFenêtre()
    -
      code : |1-
+      // On désactive DW pour éviter les beeps de scans
       ZebraDWFacileDesactiverDataWedge()
      type : 34
    -
@@ -121,6 +122,7 @@ window :
      type : 2
    -
      code : |1+
+      // On désactive DW pour éviter les beeps de scans
       ZebraDWFacileDesactiverDataWedge()
       
      type : 11

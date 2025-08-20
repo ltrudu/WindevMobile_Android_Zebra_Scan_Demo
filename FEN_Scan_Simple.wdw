@@ -159,7 +159,7 @@ window :
       gsStatusTexte est une chaîne = "Initialisation en cours" + RC
       SAI_Status = gsStatusTexte
    -
-     internal_properties : HgAAAB4AAADhem2/yHGX48pDvSNwWhGM4+/stWBVF6KwwnDpgbb4ATI8u56fG1jdD0NHmeq64K95ej779BWwBJh3LWVT6DtIUDTM/8eRkeftuyq84Zaz4tR36sf+aFpXK5f+a13yu7Q0i2+PUsxU0Y+P17PAhOjtThnKu2q1fRVefNvIev4KV8gH2EoPWQee8eG9YDd34rSl
+     internal_properties : HgAAAB4AAADTxH2LINOG/Pu3kPIrAoh8rvT56cLOCc1KRs3/9cI+8LvGzm5I1LVq7eQoIkJahzPHwJWymo/5tQWAT0IA+djjw263t8DgsBwZO1b4iWVlx0Yp6+XnT07ACLbj3Qd9hXqbtbE3T6UnhBkvTb49p59bUTTJ60dETcNZk+ZJwh5k
      code : |1+
       // A la fin de l'initialisation de la fenêtre, on lance l'initialisation de DataWedgeFacile
       // Pour cela, nous passons 3 noms de procédures WL en argument sous forme de chaines:
@@ -171,6 +171,11 @@ window :
       // Cette méthode va initialiser un profil DataWedge associé à cette fenêtre
       // Afin de recevoir les scans il faut exécuter la procédure ; ZebraDWFacileDemarrer("FEN_Scan_Simple.CB_TraiteScan") en faisant passer
       // en argument le callback de traitement de scan
+      // Si le scenario inclus d'ouvrir plusieurs fenêtres filles depuis une fenêtre menu
+      // Il faut initialiser et nettoyer DW dans la fenêtre menu et ne pas faire de demarrage ou de stop de ce dernier
+      // sauf cas spécifique, on a pas besoin du scan dans le menu
+      // Il n'est pas nécessaire de rappeler initialiser et nettoyer dans les fenêtres filles
+      // Se référer au code des fenêtres filles pour le workflow.
       ZebraDWFacileInitialiser("FEN_Scan_Simple.CB_Succes","FEN_Scan_Simple.CB_Erreur")
       
      type : 34
@@ -211,8 +216,10 @@ window :
       // Lorsque la fenêtre reprend le focus, il faut réactiver DWFacile, on passe le callback de Traitement de Scan
       // La méthode prend en paramètre le nom de la procédure de traitement des scan
       //	Son prototype est le suivant: PROCÉDURE CB_TraiteScan(sData est une chaine, sSymbology est une chaine)
-      ZebraDWFacileActiverDataWedge()
       ZebraDWFacileDemarrer("FEN_Scan_Simple.CB_TraiteScan")
+      
+      // On réactive DW au cas où on revient d'une fenêtre fille sans scan
+      ZebraDWFacileActiverDataWedge()
      type : 11
    -
      code : |1+

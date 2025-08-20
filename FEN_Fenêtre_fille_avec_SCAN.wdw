@@ -184,13 +184,16 @@ window :
       
      type : 2
    -
-     internal_properties : HgAAAB4AAAApCz2GLZff64CK6UxmaR6vRYfeBoLPCa2N49C+f/T/18HkVuDrCNl9+EMDBJCe9e5/CjpwEHRekBIZnHEsBPJQOS3QJ0GgNBQ4etbAMlYNFpfy5Meqs8LjFGwlSK9Z6xhZ3X/0cL44sFt0lc4=
+     internal_properties : HgAAAB4AAABNJxmiWeYoT+QmhchqZQbfGUNmMprzETkZ9/Tq+3BnP5XgxlRzvAGhnP/PUHxKXS47jsJ8IFg8jhxTApdOEuB6Iyu+zasGCmpChPw2VKRL0MGYerXUUXAR3ub7xuGHOaq7Y3Wi4iVkXDeQseo=
      code : |1-
+      // On réactive DW au cas où on revient d'une fenêtre fille sans scan
       ZebraDWFacileActiverDataWedge()
+      
       // Lorsque la fenêtre reprend le focus, il faut réactiver DWFacile, on passe le callback de Traitement de Scan
       // La méthode prend en paramètre le nom de la procédure de traitement des scan
       //	Son prototype est le suivant: PROCÉDURE CB_TraiteScan(sData est une chaine, sSymbology est une chaine)
       ZebraDWFacileDemarrer("FEN_Fenêtre_fille_avec_SCAN.CB_TraiteScan")
+      
       SAI_Status = gsStatusTexte
      type : 11
    -
