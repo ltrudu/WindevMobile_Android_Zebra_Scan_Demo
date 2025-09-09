@@ -37,7 +37,7 @@ window :
      p_codes :
       -
         code : |1+
-         OuvreFille(FEN_Fenêtre_fille_avec_SCAN4)
+         OuvreFenêtreMobile(FEN_Fenêtre_fille_avec_SCAN4)
         type : 18
       -
         type : 161

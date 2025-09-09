@@ -88,7 +88,7 @@ window :
      p_codes :
       -
         code : |1+
-         OuvreFille(FEN_Fenêtre_fille_avec_SCAN2)
+         OuvreFenêtreMobile(FEN_Fenêtre_fille_avec_SCAN2)
         type : 18
       -
         type : 161
@@ -113,7 +113,7 @@ window :
      p_codes :
       -
         code : |1+
-         OuvreFille(FEN_Fenêtre_fille_sans_scan)
+         OuvreFenêtreMobile(FEN_Fenêtre_fille_sans_scan)
          
         type : 18
       -

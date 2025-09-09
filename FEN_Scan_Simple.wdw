@@ -10,7 +10,7 @@ info :
 window :
  name : FEN_Scan_Simple
  identifier : 0x2bb5db2f01c77dd9
- internal_properties : HgAAAB4AAADY/1gXIOsPFmINXRfWna/dVK9wVr+tnsOpoavPfYNYdCRtqQenEFtLmoq/jPU4NMWI2IgfWLOqZSettumkJxHxY+dQu/UvFRMFVdWSpaJvv+UF5AMk/fyNHFgDeC84qy9X8asku34NAB2EVRZ30LskILV9Z6wkwISkrJcG5Z9ObE7nM6uxsNp1i44NJevKf58pmqFwX60g6TU3ZNCN4LuQaEjYohe2RO3KB8MF1rWmE16C5Xei4iTzfA4PWyK4NEBYtJO1Y4HKwESnRfzX5bX98ay4V1T2tvxxPGA5jhRW5KKYBA1DGVO3q/i5Lkk6z1JIRXI+ZLe4PSysj33CjcJ5tBbOXOcEQDnnmxCKM0BQ/r0yC+ApiZLrK97BQtnYlmN8LC/zRNdAQjNmbDNtMfqYo0xPAV/GqdgNrw7QDfGFwrr/t8sJIgLpKw7Ud1z3R8R0DXBQFS4tzcyml6QCEre1JkjfDNcHRjQI+/E8lc9CKva2a5oF/MzQfyuIm2q5VohZ2UU26xBca+ErwN3bc+izWE9mYCsEmXW87oX+RQSVePong1SnxbtrtWMQo6hcD2O0KlcSWgysAm42KbeYsJ4rM0mQMig7yFaxLSwBwAjjFA9Ly9Y3ZAJrGfAkbQqGtpFOFVwJ3HCp++6M8J90DhFmS20QrzoKz23nZVFlgR2UYQ5cdlZxuHByb1WW4d6DfTCUdno7COCvIKKD5QZ4fcbecX5V7heaL24JzW8Mf+FXgxby8XQNdwe07rRuXZjuOurb9CdfJUPi9K6xj2TnHymIwdtiUv1EsH13SIkSam7mLW0u0uKaJXY/4p2d2/jg/HxIC6Pq807DYEPq2z7kx2fEiVXgyKBth0w5xI+ppLi5JdKGxgSCsOepvE4kYc7U8rU7o3HR7anrWzodgIKvF/4xbLeq513q7XJo
+ internal_properties : HgAAAB4AAAAN5K8c0SErsobxJQ2K8993CXX6LUa67++fk6DkgPUV5/rZ3D7kq4hmpKEj7kcykmHinQwnxA4Il5njgId+TeuDNpVQTZnpTTlFE8GkTXwpa5UX0N8A85thSgp3IBRF3uf/fwm21wfLh+1G2qC1Ce8TybASwg/Kd3gKnFvFtrRMFY81SlSYfm7B+mu2+A2/dOQAzX69oDsZtV6TIseN/1vlW/wtPw7V1iFPFdI8Akwge3JVtjMFzUoAEtMZJKAzMuaO8Af9RkS9owLW9XeCdn+2oHAT3K8CP3Yz7QL8wRlRZBFJg004v9c8kS+ExtPJqJ/bthJmIqpRLFU4VSktiDE7AVeY54rSGfh95MfQcTb63Rp32r1DQzfZ+urEfb3I9iVaVumov7phUeL8NgByVJnjKi5+uX3W7boNwlSiXDiTV+0Ie6S3SnTJ6imaHQw2kI32QScIoe0i93GU0yO6gF3FY/PYA7m0178LfVwQxvSYbQSezcrNB6cVTJpmyQD72UmlY5cHk9Is3ljcGyruALrVSFplRI3kQz4+vpt6Y5fD1s/9q1hLN62jJe3piBIYq1FTT3jny9cI9IDDJqxptzwYOIhft5mLDZMXTyyvXGMDjGH439wSPxC41b0AvYjI3VTP07UP+Oq2wZ/Dyh8+WQTrcfLWEeTY8CY+5pK55Q3v3PDyj/SzbVcBZc4ohyQ5u3JBk5VdZHXt66yTMuI0NaBric2/UnLkQp5EnSpQz0JZvkImbeZA4UQt7OdT4Y9S3F7jXmyyG8SUybyiDLhVG5SLOvd+OXyp7ehk9xc/rFg87bfY1cEJLH8WhxwsVnstdasTQGCzVCW0b1f6+yJAmycMrb2YTSEeLmxF+slHegKdnn0yQRwzpBy+uUwTst5NSm2XecjRtmfJHV+eT/3iXG/G4RgLdGLt4Gcd
  properties :
   width : 320
   height : 407
@@ -88,7 +88,7 @@ window :
      p_codes :
       -
         code : |1+
-         OuvreFille(FEN_Fenêtre_fille_avec_SCAN)
+         OuvreFenêtreMobile(FEN_Fenêtre_fille_avec_SCAN)
         type : 18
       -
         type : 161
@@ -113,7 +113,7 @@ window :
      p_codes :
       -
         code : |1+
-         OuvreFille(FEN_Fenêtre_fille_sans_scan)
+         OuvreFenêtreMobile(FEN_Fenêtre_fille_sans_scan)
         type : 18
       -
         type : 161
@@ -156,26 +156,12 @@ window :
    -
      code : |1-
       PROCEDURE MaFenêtre()
-      gsStatusTexte est une chaîne = "Initialisation en cours" + RC
+      gsStatusTexte est une chaîne = ""
       SAI_Status = gsStatusTexte
    -
-     internal_properties : HgAAAB4AAADTxH2LINOG/Pu3kPIrAoh8rvT56cLOCc1KRs3/9cI+8LvGzm5I1LVq7eQoIkJahzPHwJWymo/5tQWAT0IA+djjw263t8DgsBwZO1b4iWVlx0Yp6+XnT07ACLbj3Qd9hXqbtbE3T6UnhBkvTb49p59bUTTJ60dETcNZk+ZJwh5k
      code : |1+
-      // A la fin de l'initialisation de la fenêtre, on lance l'initialisation de DataWedgeFacile
-      // Pour cela, nous passons 3 noms de procédures WL en argument sous forme de chaines:
-      //	1- 	Le nom de la procédure qui sera exécutée si la fonction est un succès.
-      //		Son prototype est le suivant: PROCÉDURE CB_Succes(sNomDuProfil est une chaine)
-      //	2- 	Le nom de la procédure qui sera exécutée en cas d'erreur
-      // 		Son prototype est le suivant: PROCÉDURE CB_Erreur(sNomDuProfi est une chaine, sMessage est une chaine, sErreur est une chaîne)
-      //  Les callbacks de succès et d'erreur sont facultatifs, mais fortement conseillés
-      // Cette méthode va initialiser un profil DataWedge associé à cette fenêtre
-      // Afin de recevoir les scans il faut exécuter la procédure ; ZebraDWFacileDemarrer("FEN_Scan_Simple.CB_TraiteScan") en faisant passer
-      // en argument le callback de traitement de scan
-      // Si le scenario inclus d'ouvrir plusieurs fenêtres filles depuis une fenêtre menu
-      // Il faut initialiser et nettoyer DW dans la fenêtre menu et ne pas faire de demarrage ou de stop de ce dernier
-      // sauf cas spécifique, on a pas besoin du scan dans le menu
-      // Il n'est pas nécessaire de rappeler initialiser et nettoyer dans les fenêtres filles
-      // Se référer au code des fenêtres filles pour le workflow.
+      // Si cette fenêtre est la première sur la pile des fenêtres et nécessite le scan
+      // il faut initialiser le profil ici.
       ZebraDWFacileInitialiser("FEN_Scan_Simple.CB_Succes","FEN_Scan_Simple.CB_Erreur")
       
      type : 34
@@ -196,18 +182,9 @@ window :
      type : 230
      enabled : false
    -
-     internal_properties : HgAAAB4AAAAaa4naUF6coKOOPc0DW1dLc3Ts6m2OwreHU2472ye57ykWPWnihMDeIXNPJKdWx8OdZ13PfNKHPGDYg5+K+PQWSQGWztrIeruTSB6ffrG5PowcGnxzZ0SxXImDNkYXNzGBcmrU7dH146K56sbuVM3AT0nahLIS8ZH3kIPgaQ4=
      code : |1+
-      // A la fermeture de la fenêtre, on peut sortir de 2 façons:
-      // 1- 	Stopper DWFacile et nettoyer seulement la procédure de traitement de scan sans effacer le profil (Recommandé)
-      //			ZebraDWFacileNettoyer("FEN_Scan_Simple.CB_SuccesNettoyer","FEN_Scan_Simple.CB_Erreur")
-      // 2- 	Stopper DWFacile, nettoyer la procédure de traitement de scan, stopper DWFacile et effacer le profil qui avait 
-      // 		été généré par ZebraDWFacileInitialiser.
-      // 		Cette méthode est déconseillée si des fenêtres filles doivent utiliser le scanner.
-      //		Elle est le plus souvent utilisée pour les applications disposant que d'une fenêtre/
-      // 			ZebraDWFacileNettoyerEtStopper("FEN_Scan_Simple.CB_SuccesNettoyer","FEN_Scan_Simple.CB_Erreur")
-      
-      // Dans le cas de la démonstration, nous n'effaçons pas le profil
+      // Si cette fenêtre est la première sur la pile des fenêtres et qu'elle implémente le scan et l'initialisation
+      // il faut nettoyer DataWedge en sortie
       ZebraDWFacileNettoyer("FEN_Scan_Simple.CB_SuccesNettoyer","FEN_Scan_Simple.CB_Erreur")
      type : 2
    -
