@@ -179,25 +179,53 @@ procedure_set :
       
       // Nous implémentons ici une interfaces permettant à la librairie java d'exécuter des procédures WL
       // en utilisant l'inversion de contrôle
-      private static DataWedgeWindevMobileFacade.IAppelProcedureWL mAppelProcedureWL = new DataWedgeWindevMobileFacade.IAppelProcedureWL() {			
+      private static DataWedgeWindevMobileFacade.IAppelProcedureWL mAppelProcedureWL = new DataWedgeWindevMobileFacade.IAppelProcedureWL() {
       	@Override
       	public void appelProcedureWLSS(String param1, String param2) {
-      		appelProcedureWL(param1, param2);	
+      		try
+      		{
+      			appelProcedureWL(param1, param2);
+      		}
+      		catch(Exception e)
+      		{
+      			Log.e(TAG, "Exception à l'appel de la procédure:" + param1);
+      		}
       	}
-      	
+      
       	@Override
       	public void appelProcedureWLSSB(String param1, String param2, boolean param3) {
-      		appelProcedureWL(param1, param2, param3);	
+      		try
+      		{
+      			appelProcedureWL(param1, param2, param3);
+      		}
+      		catch(Exception e)
+      		{
+      			Log.e(TAG, "Exception à l'appel de la procédure:" + param1);
+      		}
       	}
       
       	@Override
       	public void appelProcedureWLSSS(String param1, String param2, String param3) {
-      		appelProcedureWL(param1, param2, param3);
-      	}	
-      	
+      		try
+      		{
+      			appelProcedureWL(param1, param2, param3);
+      		}
+      		catch(Exception e)
+      		{
+      			Log.e(TAG, "Exception à l'appel de la procédure:" + param1);
+      		}
+      	}
+      
       	@Override
       	public void appelProcedureWLSSSS(String param1, String param2, String param3, String param4) {
-      		appelProcedureWL(param1, param2, param3, param4);
+      		try
+      		{
+      			appelProcedureWL(param1, param2, param3, param4);
+      		}
+      		catch(Exception e)
+      		{
+      			Log.e(TAG, "Exception à l'appel de la procédure:" + param1);
+      		}
       	}
       };
       
