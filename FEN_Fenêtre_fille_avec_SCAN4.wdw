@@ -25,7 +25,7 @@ window :
      x : 8
      y : 67
      width : 304
-     height : 332
+     height : 220
      state : 1
      anchor : 10
      accelerator_key : 65535
@@ -68,6 +68,65 @@ window :
     code_elements :
      type_code : 2
      p_codes : []
+  -
+    name : BTN_SupprimerCallbackDeScan
+    identifier : 0x298c594805a20337
+    internal_properties : HgAAAB4AAABxUYtcJRU9bUlmFCWwgmhLWxXvH/2hc7+BZENp0qNXButiEPtt/gabdfZB/ivHl5bxRmM5FiY0qGqXijx27XyFUVyKqzUSZdP47wNWxwp0umkhKTlIkDQIbQqyNkwpZOpjIMIEEBNt5FByYaKS4qjqtJoBFHXNv4IjzTaGmJJv3oMJke4+iklF4u/DHmw7thHCRHq3rQDAhEox7et/jz/WbSHmZtgugKmwl6d9n2XL5gGdxGSd5O6hyWewOIMebnEh7A5ffavKwZzIP6q5H9izszG/yhGVXUUIU+hbVlfatneM30MQN2DvlW96qg1A7lzvRDKz0JTMfjt0PiQt7X8Vd4ZjvURe9E0KUGEavLgi9doPxv/dm/qCR+z5rjbf25gyWFNSwnsP9nihCPW4T84zNfHfu4TAv4kh/+0AkJJGNd3YoP8bfLy2nwaM0oWsmZmGzzcr6VyG4SpCqfDGx3XqsyNparaO+D9SZppKekk6TcUY9Qs10EdAqJfVGX5jVZVQMaKKmMuB03UnabugkZQf7beaji/NcrZIXtetwVe5MRhMjiRMNuYATCrRfCezXQQAwwXLJKF22CBmiepASJvVAfkHfJ5XZXNW11iqKL/cYKxrW7WubrRsav/S+1bMFnTRXNUVq9ir37ETOTBcxLYm8UkR91tOwlPTszW6i458kevIfMk40c6qkXWioo3+cBQOQwCQonffgMlk5SacZNBlyjyyHN+tL2XFi/59ROa5YN8b0wYf9U6O0FJa0wK4cOU8YbAe7Aowu2HxRjp4B8S7J3xqBw5By8bWS0u1Z5Gnx21fl42zxhykLl0mXC5krLQkjPAYGU2T7x3gmiY+K/vDNTiwAs+F7ut1TD49l7MOWnIqCF0LyHXrmO4n7SVxN0Q1yh0LGrYchqqRMeIQSNPjFKgwh0trs32DAGodgj0auFbe
+    properties :
+     x : 8
+     y : 351
+     width : 304
+     height : 48
+     anchor : 9
+     accelerator_key : 65535
+     tab_order : 2
+    style : {}
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         // Lors de la mise en arrière plan de la fenêtre, il est nécessaire d'indiquer à DWFacile que nous
+         // ne souhaitons pas recevoir les scans sur cette fenêtre.
+         // Pour cela, on exécute la procédure ZebraDWFacileStopper()
+         ZebraDWFacileStopper()
+         
+         ZebraDWFacileDesactiverDataWedge()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_EnregistrerCallbackdeScan
+    identifier : 0x298c595a05a44939
+    internal_properties : HgAAAB4AAAAF3jRTDyqDzdTtxCI8t9Ap9yYHwzUu5BE383g11wcr50UxJgha93EvORmWtrHvUbHQv9LH5DCdrvcJcxFavJYMSsBgq6LfASBnThh8M4rqLPEQIuzst8wQZbNWjw9XAsC1+oH+i8JR/q9EwWtG6WU7cdMvxzKfoVpGIbV65FhVnCMGNt+kTCEp+IjQLhB0JJEbDubSYgTJFs6YCHsvIvJzvI8BQF3VgWbrOF1plUYr4uaBorPStYOshh3uk0a0BJMQg75PQNQT/XF/37U4R8CYmXyLWpTk/9lAY/HXb2MLEUDTkSqAdxi0cngrsKZDd0s/m6ZgNRihPp1rKILN5kWmud40mIXA5GuoBiIP39dVRUuWIx9Zkh97dzf+PrQ3jidlTyvet6hihaJHhizeYttwYFIev1jzkcCYeh93Y6QV787NvAgIRA3s/yUztuXAlSpRf0CPZKrO/oNduFtCqFxxapj1nqPUe345BAtTVdds20Q6JQ9WZsxh4aHGggWN94PnjzR0tVXeKCjhLF6fOUQ/HNeopN57vRWxXhT2LmPRGa1KIvyVQgPRI87K5SRVgUDD4/v5Mzd3raN0xudhsj/Z0n8NsnlRJBJZB1MZUfsovG8Rv40LPv3JF53xOnsqmBog3CNbPPB8wAYN3M+/6D4G3NG1p4bCNXJ4QcQJImaSe2IQRntfuZ1VCk2r39AAHHjnd/TAk9l2u8oeEm95OB5vRyBgioqXYDLYDzm4H54RsOpprUjyXYExeUYx8kn8iqiI4Gk5nst47e+KvtBcsNkuBT3VeLwWP4DYvEn0usEdoHKB57g3pTUWkrnsaY3y5qhrZsT6Q9INw28JxIZ0shR8Ze7Rqgipb6uomEvK6/mESJqn+YHE4EYJEqn1y5rewONgEiBMMhwzcXfQ0yfbUvsTbmNTrIhD8Eu1geVM+gzdzOKyG2H64Q==
+    properties :
+     x : 8
+     y : 295
+     width : 304
+     height : 48
+     anchor : 9
+     accelerator_key : 65535
+     tab_order : 1
+    style : {}
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // On réactive DW au cas où on revient d'une fenêtre fille sans scan
+         ZebraDWFacileActiverDataWedge()
+         
+         // Lorsque la fenêtre reprend le focus, il faut réactiver DWFacile, on passe le callback de Traitement de Scan
+         // La méthode prend en paramètre le nom de la procédure de traitement des scan
+         //	Son prototype est le suivant: PROCÉDURE CB_TraiteScan(sData est une chaine, sSymbology est une chaine)
+         ZebraDWFacileDemarrer("FEN_Fenêtre_fille_avec_SCAN4.CB_TraiteScan")
+        type : 18
+      -
+        type : 161
+        enabled : false
  actionbar :
   name : ACTB_ActionBar
   identifier : 0x28a5c2ac11cdc0c1

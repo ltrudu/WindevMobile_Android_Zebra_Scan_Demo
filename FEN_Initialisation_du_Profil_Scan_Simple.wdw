@@ -23,9 +23,9 @@ window :
     internal_properties : HgAAAB4AAAB/WiifiAKlYOUQEY4QOXtEfVt7d8uiu2691qIsbTvuWU7MCvQAzh6Juxqt5RoavP/bUS+keiFc20xAOzNSkK38FpRv3nvcUV2y3FlBCnuWlTkTnsReYKB3V9c6/gxtrshvmtjqSZQregY+nXx6y6+YV4urHAgLck3BOhlbzr9IMzfWHlQ0k7r+jpxdKcEVF/BlU5YG+jTzl3q5nnnalo90yshguzbi/mfCqGkhmVBVG/MzCPC1Z4kMJZA2vxPFZwHR3Zh7akEDOKY2QrA4o9BpTP/uHq8L6/ZOYMF5Wj6vaP77iGh0L6q2HK/seu+peI0K6dKKU7hI72hUieBP2Lw309bc53X3cueVg6nfc5f+EcLOOtwp3ftbr33EWK5vJdTA0GhpHgFA/nYl0ywZRA+4uY4C6h8T2MP++JmAq3+6AeTAnAbjqKsEZPK91lZCUnH654OhJgsaauods/qSMAM/iv0V8VptX5F9mY+Ih8YS9AxMAPPrEDzf5Dm29Rvr3qm34gtquwF7vp1C2hs5gQb5vIq0oSuiziopR3vGkRJ8KWp9bc7uVHtuauqMC+TtJSmjMitNmBJWVnrudi7dHAWLAq2xub0QVyATJ84jvJ9q+v9biiGC+Ll1cv/qlJAcG4eYrNYmPrtMVAGkgrjeU9IcJpKrHM0mcSghDUtTwVWOI0ouCq0S+hmSVqpPuOrnxb9jl7tNc5NeQOP/YGOSnzypDaAM7UfC6NcyVn78vaPCM6k79GsY2Su1ARiN3Z7rpuPC6Ct+DyBtWej30FTs4P0ez92GnhTdUyqDbhVUIE/aRsRDzEDEmRPNi7JWf7aq/PvjMezeED22iFQH5eDMx5upmewU/6TL3vGT7s2FP0+d/9IOEypoF2S2RCRU6O1sI2GOh3tsMZPhsv/ljPW1i2hBMubLk9bYJKR5t1H7vCsp8TDpEQlvEVPHc+HMUdsgJtIaYVyXKIq7wnlARpP/oB2/4CbWF4AuVkOHJP+2DxgRWnw/1SUIQhmy19OET3hQJAMFcAqD21HtO3Fq2AqG6NRIdPhqxu77hL7bjE9MIZh59DtOtpLjRRl9cav7rWVqqSgZcBycg2QE1oxOEstvm3S4ktNrPoHL0I09sTXGDKWoaLxEazONo8GDFMIOAhwFhEeBUkjr7b5qZN3evzTuS/MWApS92/YJDsAdzmLgdasnRP79Rf0YZXmCysgj+ej3Byjj23KNau58BOACIOmy4AsnJemP0brsA5ITNobbIjqZnVqZcAM=
     properties :
      x : 8
-     y : 150
+     y : 188
      width : 304
-     height : 193
+     height : 155
      state : 1
      anchor : 10
      accelerator_key : 65535
@@ -53,12 +53,12 @@ window :
   -
     name : LIB_Cet_exemple_vous_montre
     identifier : 0x28a5e21d03bd9584
-    internal_properties : HgAAAB4AAABXH4HbjA3HAUCwevxDLgPCunq3CLkBzuG6sVkvartADzp3uipsSwzq5hEQZC0OV6c9EXl2xc6ltCRQiExZgyG0I9ZhfjH7IMhmahHs3aVLffqCRi6gIg9D3QGQQy3t6Nt27KGRKnx+yeQcthZSET1KXZL0Kh73bw0uA7zPiR2tgk0Qyxy4WJGgNmIvMUoiUy2vchKfCaroSFm5+fqXChU9rb5lZFZvCEEodnLjeuxPLRvuRqTJF+cHTss+bklD+r4WwioauflyrIiBoknWVLQS+e2nL8BUdpuLfI7z8tri/IYwczIlTdbLBX19k0ix9n5iVE1toiUtat6h69INrVmVULSyk6DZXnUG9EYd4SsoRKhuLNAwVPMahWydh4EndARYIT2ay7m2LpZVwBbcs+20AAsf7QsPzKEWE5OwPHR8zuGfmltN1odrL90eokDzf5mSIi2f3+yMPa/J8lKiAvwvYuZ8b9Y/Sy3ZRlexIWckQvnLFYd3QNTYQlbY8PAh9wHrqdj+sU/lSHqR4sIN8cIk4BVaZXXDHk88WsTVpZOxV3pX+12bXcZq3UtMcI4/cwCeQnRAdV9zweZKopBArP9N7AmTzkIjCmLO0H0PexcddS29D6M534U3FxHRT0k17zTY7bhse8W3ATaLU9HAgs5T8AfPjuQteJLR05R82eX1Z5RXZq7w3v1Iq50jnb/BKEW6+tIPujgSIeoR0naM5HzePMQ=
+    internal_properties : HgAAAB4AAAAGvXTRSkLBStwkkX3YLw/8Wcmrlrg2Y3uRUkZoAu+ThTBIgX6h3Y9+10w8kM3/p6cZmrzm66IHuwgMAKdu15i3ReMU/iDTfUX9d1T4qd5dwN4SOSlbXZRUqug0fUPZW1bAk1/sxcIZmb4CFXmT3F+itzlq5XnhxiPdIPzq/nRE8Q/lKWmX6IQkW4FuOBvGLGzLQrIFiyN0orflPCyp5M4kybEgJVpoLN8JINSX/RtbSITr3ib0vuGmJJZOtdkad1gIKzHifRh9MKRnF2QeN+fF5pyF6mpMobYK+DfZEiihPjjmQF7nPTCrlBgYaWOM0N2Jh6Ej/hX1JGHwMs5MQcPRYCjnN1bkfvZ7rJ8utQ9pGIq9Eucs5BBbz6VQvRyhl2ovfqaPnn4w3mO2XvSs+6EhmpbZtQvCcAc8dlxHPIc8ilG0ve72dJN73bAAMplcGPQ474qaQjDIAKhuhfkXzvQL1T/Qgn4ihoBUYuhd5EN0bpHiFQTUk+KqRzuKyP11xhaRuAAwtuCGca3aD8Xwb5i4KY20vZ21jyzD3PiqNq1jsUfhlbiwgK444azf9VJssGcynxjmfOAb99oUa0YH5j+xoplw+XMPyCZXzbEFXvOsW1bdTjLsm+WWF3ylo50hb+lwVKO9wEPXiVYcEoGOBzRxgZPJfNjKdT0AY9S6KEQAl2tNqUG1qBF/fcqyy82yjoWsB65XhyoCdI142TdoSo9v9oii0qYBXTaCDomzkTWWSmcDuRs+7am/NXY9VhpE8sIyAcz4PYBdOXmIC7tMexuSAbY9kOMdpcFfnspgkzA=
     properties :
      x : 8
      y : 8
      width : 304
-     height : 134
+     height : 172
      anchor : 10
      anchor_ratio_pos_y : 0
      tab_stop : 0
@@ -77,8 +77,7 @@ window :
      y : 351
      width : 304
      height : 48
-     anchor : 1
-     anchor_ratio_size_x : 0
+     anchor : 9
      accelerator_key : 65535
      tab_order : 1
     style : {}
@@ -187,8 +186,7 @@ window :
      type : 2
    -
      code : |1-
-      AjouteLigneDansStatus("Désactivation de DataWedge")
-      ZebraDWFacileDesactiverDataWedge()
+      
      type : 11
    -
      code : |1+
